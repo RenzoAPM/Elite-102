@@ -127,6 +127,9 @@ C - Logout
         transfer(account_id)
         return True
     elif answer == '4':
+        check_balance(account_id)
+        return True
+    elif answer == '5':
         edit_details(account_id)
         return True
     else:
